@@ -4,4 +4,6 @@ We used the Banking77 and Clinc150 datasets and split them into train-test-valid
 
 The chosen dataset, balanced/unbalanced settings, hyperparameters, and encoder model can be changed in main.py
 
+```
 python main.py
+```
