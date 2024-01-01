@@ -8,3 +8,6 @@ The chosen dataset, balanced/unbalanced settings, hyperparameters, and encoder m
 ```
 python main.py
 ```
+ToDo
+[] Add links to files, checkpoints and other resources
+[] Add requirements.txt
