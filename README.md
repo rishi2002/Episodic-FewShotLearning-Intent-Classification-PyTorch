@@ -22,8 +22,17 @@ The above image shows the number of episodes and classes in each dataset split.
 <h4>Episodic Training</h4>
 ![image](https://github.com/rishi2002/Episodic-FewShotLearning-Intent-Classification-PyTorch/assets/74735335/d5f4583a-6583-4a04-a9eb-d75f2e91515b)
 
+<h2>Samplers</h2>
+<h4>Balanced Samplers</h4>
+The authors follow https://aclanthology.org/2021.acl-long.191.pdf for balanced sampling
+![image](https://github.com/rishi2002/Episodic-FewShotLearning-Intent-Classification-PyTorch/assets/74735335/d2349ab3-91ed-4500-8878-c8cba1ad9618)
+<h4>Unbalanced Samplers</h4>
+The authors follow https://aclanthology.org/2020.nlp4convai-1.12.pdf for unbalanced sampling
+refer to section 6.1 of the above paper for detailed unbalanced episode construction
+NOTE: since I have implemented the code only on the balanced datasets, the unbalanced sampler does not follow the procedure mentioned in the paper. Sampling n-way and k-shot for each episode can be changed in the samplers.py file. Comments indicate which lines can be changed for the new implementation.
 
-The chosen dataset, balanced/unbalanced settings, hyperparameters, and encoder model can be changed in main.py
+<br><br>
+I referenced the code from https://github.com/UKPLab/eacl2023-few-shot-intent-classification
 
 ```
 python main.py
