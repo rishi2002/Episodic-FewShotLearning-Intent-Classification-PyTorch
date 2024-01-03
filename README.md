@@ -12,7 +12,7 @@ clinc150: https://arxiv.org/pdf/1909.02027v1.pdf
 dataset: https://paperswithcode.com/dataset/clinc150
 <br>
 The paper also implements the Liu54 and Hwu64 datasets for the balanced setting and ATIS19, SNIPS7 and TOP18 for the unbalanced settings. These datasets have not been implemented or tested in the code.
-![image](https://github.com/rishi2002/Episodic-FewShotLearning-Intent-Classification-PyTorch/assets/74735335/ecc61629-65b8-48b7-956a-e15bccb8336e)
+![image2](https://github.com/rishi2002/Episodic-FewShotLearning-Intent-Classification-PyTorch/assets/74735335/ecc61629-65b8-48b7-956a-e15bccb8336e)
 The above image shows the number of episodes and classes in each dataset split.
 <h2>Model Components</h2>
 <h4>Cross Encoder</h4>
